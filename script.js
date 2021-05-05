@@ -3,8 +3,8 @@ var body = document.body;
 
 function doStuff(){
   console.log(input.value);
-  console.log( "https://nhentai.net/g/" + input.value );
-  location.href = "https://nhentai.net/g/" + input.value 
+  console.log( "https://nhentai.net/search/?q=" + input.value );
+  location.href = "https://nhentai.net/search/?q=" + input.value 
 }
 
 $(function() {
